@@ -7,12 +7,12 @@ bot = Discordrb::Commands::CommandBot.new(
   prefix: '~'
 )
 
-bot.command(:ping) do |event|
-  event.respond 'Pong!'
+bot.command(:hello) do |event|
+  event.respond "Hello #{ event.author.mention }, how can I help?"
 end
 
 bot.command(:exit) do |event|
-  bot.send_message(event.channel.id, 'Flox Bot is shutting down.')
+  bot.respond 'Flox Bot is shutting down.'
   exit
 end
 
