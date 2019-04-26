@@ -1,7 +1,7 @@
 require 'discordrb'
-require './commands.rb'
+require './modules/commands.rb'
 
-CONFIG = JSON.parse(IO.read('config.json')).freeze
+CONFIG = JSON.parse(IO.read('./config/config.json')).freeze
 
   bot = Discordrb::Commands::CommandBot.new(
     token: CONFIG['token'],
