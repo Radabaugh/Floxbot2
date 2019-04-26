@@ -1,4 +1,4 @@
-# Floxbot2
+# Flox Bot v.2
 My second attempt at a Discord Bot, this time in Ruby!
 
 ## Installation
@@ -14,11 +14,11 @@ Run `bundle install` to install required gems.
 
 ### Configuration
 
-You'll need to create a `config.json` file. See the `config.json.example` file for how it should look.
+You'll need to create a `config.json` file inside of the`app/config` folder. See the `config.json.example` file for how it should look.
 
 ## Run the Bot
 
-The bot can be run with the command `ruby floxBot.rb`.
+Navigate to the `app/` directory, and the bot can be run with the command `ruby floxBot.rb`.
 
 ## Commands
 
