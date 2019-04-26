@@ -6,6 +6,7 @@ My second attempt at a Discord Bot, this time in Ruby!
 This assumes you are using Homebrew on a Mac.
 
 `brew install libsodium` is needed for discordrb’s voice functionality to work.
+
 `brew install ffmpeg` is needed for audio/video that’s required by discordrb for voice support.
 
 ## Setup
