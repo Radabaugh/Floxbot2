@@ -26,6 +26,5 @@ Navigate to the `app/` directory, and the bot can be run with the command `ruby 
 All commands begin with the `!` prefix.
 
 ```
-!hello - Greets the user.
-!ping  - Responds with the bot's ping.
+!help - Lists, and describes all commands.
 ```
