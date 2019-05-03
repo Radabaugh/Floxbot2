@@ -21,6 +21,14 @@ You'll need to create a `config.json` file inside of the`app/config` folder. See
 
 Navigate to the `app/` directory, and the bot can be run with the command `ruby floxBot.rb`.
 
+## Add the Bot to a Discord Server
+
+Use the Discord Permissions Calculator to generate a link.
+
+```
+https://discordapi.com/permissions.html
+```
+
 ## Commands
 
 All commands begin with the `!` prefix.
