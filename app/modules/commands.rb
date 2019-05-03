@@ -1,3 +1,5 @@
+CONFIG = JSON.parse(IO.read('./config/config.json')).freeze
+
 module Commands
   extend Discordrb::Commands::CommandContainer
 
@@ -17,5 +19,10 @@ module Commands
     next 'You\'re not in any voice channel!' unless channel
     event.bot.voice_connect(channel)
     "Connected to voice channel: #{channel.name}"
+  end
+
+  desc = 'Disconnects from the voice channel the bot is in, if any.'
+  command :disconnect, description: desc do |event|
+    event.bot.voice_destroy(CONFIG['server_id'])
   end
 end
