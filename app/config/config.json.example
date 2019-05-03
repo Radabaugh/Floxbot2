@@ -1,4 +1,5 @@
 {
   "token": "token_string_here",
-  "client_id": "client_id_string"
+  "client_id": "client_id_string",
+  "server_id": "server_id_string"
 }
